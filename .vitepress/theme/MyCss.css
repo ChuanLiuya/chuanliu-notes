@@ -1,0 +1,58 @@
+:root {
+  /* 导航栏透明 */
+  --vp-nav-bg-color: transparent;
+  /* 侧边栏透明 */
+  --vp-sidebar-bg-color: transparent;
+  /* 导航栏高度 */
+  --vp-nav-height: 80px;
+}
+
+/* logo 放大 */
+.VPNavBarTitle .VPImage {
+  height: 64px;
+}
+
+/* 导航栏底部边框去掉 */
+.divider {
+  display: none !important;
+}
+
+/* 大纲底部 curtain 渐变去掉 */
+.aside-curtain {
+  background-image: none !important;
+}
+
+/* ====== Mermaid 流程图背景适配 ====== */
+.mermaid {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+/* ====== 移动端适配 ====== */
+@media (max-width: 960px) {
+  /* 移动端侧边栏 */
+  .VPSidebar {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+  }
+  /* 移动端目录/大纲横条：默认透明，吸顶时变深 */
+  .VPLocalNav {
+    background-color: transparent !important;
+  }
+  .VPLocalNav.is-stuck {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+  }
+  /* 移动端导航按钮展开 */
+  .VPNavScreen {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+  }
+  /* 移动端大纲弹出面板 */
+  .VPLocalNavOutlineDropdown .items {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+  }
+  .VPLocalNavOutlineDropdown .header,
+  .VPLocalNavOutlineDropdown .outline {
+    background-color: transparent !important;
+  }
+
+}
