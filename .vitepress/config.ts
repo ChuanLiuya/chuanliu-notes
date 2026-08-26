@@ -109,6 +109,14 @@ export default withMermaid(
                   link: "/languages/TypeScript/build",
                 },
                 {
+                  text: "tsconfig.json",
+                  link: "/languages/TypeScript/tsconfig",
+                },
+                {
+                  text: "compilerOptions 字段详解",
+                  link: "/languages/TypeScript/compiler-options",
+                },
+                {
                   text: "基础类型",
                   link: "/languages/TypeScript/basic-types",
                 },
