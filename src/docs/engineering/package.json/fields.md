@@ -12,7 +12,7 @@
 - 不要和核心节点模块同名。
 - 别在名字里面有`js` `node`。
 - 你可以先查查[npm注册表](https://www.npmjs.com/)，看看这个名字是否已经有了。
-- 名称可以选择性地加上一个[范围]()，例如`@myorg/mypackage`。举个例子，vue团队写的cli可以写成`@vue/cli`，你自己写的react可以写成`@someone/react`，这样可以防止重名。
+- 名称可以选择性地加上一个范围，例如`@myorg/mypackage`。举个例子，vue团队写的cli可以写成`@vue/cli`，你自己写的react可以写成`@someone/react`，这样可以防止重名。
 
 一些规则：
 
