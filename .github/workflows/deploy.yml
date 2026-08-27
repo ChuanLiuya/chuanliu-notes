@@ -1,0 +1,46 @@
+name: 生产环境部署
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 把仓库里的代码复制到 GitHub 的构建机器上
+      - name: 下载项目代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 安装 Node.js（运行 JavaScript 的环境），后面装依赖和构建都要用它
+      - name: 安装运行环境 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      # 根据 package-lock.json 安装项目需要的所有依赖包
+      - name: 安装项目依赖包
+        run: npm ci
+
+      # 执行 npm run build，把 Markdown 笔记打包成静态网页文件
+      - name: 生成网站静态文件
+        run: npm run build
+
+      # ========== 部署 ==========
+
+      # 把生成好的静态文件上传到服务器，Nginx 网站目录就在这里
+      - name: 上传发布到服务器
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.ALIYUN_HOST }}
+          username: ${{ secrets.ALIYUN_USER }}
+          key: ${{ secrets.ALIYUN_SSH_KEY }}
+          source: ".vitepress/dist/*"
+          target: "/www/wwwroot/chuanliu-notes"
+          strip_components: 2
+          overwrite: true
