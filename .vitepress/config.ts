@@ -333,6 +333,8 @@ export default withMermaid(
               items: [
                 { text: "MySQL是什么", link: "/data/mysql/what-is-mysql" },
                 { text: "快速上手", link: "/data/mysql/quick-start" },
+                { text: "数据库操作", link: "/data/mysql/sql-database" },
+                { text: "数据表操作", link: "/data/mysql/sql-table" },
               ],
             },
             {
