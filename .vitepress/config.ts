@@ -32,6 +32,20 @@ export default withMermaid(
 
       sidebar: [
         {
+          text: "AI",
+          collapsed: true,
+          items: [
+            {
+              text: "MCP",
+              collapsed: false,
+              items: [
+                { text: "MCP 是什么", link: "/ai/mcp/what-is-mcp" },
+                { text: "快速上手", link: "/ai/mcp/quick-start" },
+              ],
+            },
+          ],
+        },
+        {
           text: "语言",
           collapsed: true,
           items: [
