@@ -40,8 +40,7 @@ export default withMermaid(
               collapsed: false,
               items: [
                 { text: "MCP 是什么", link: "/ai/mcp/what-is-mcp" },
-                { text: "构建MCP服务器", link: "/ai/mcp/build-server" },
-              ],
+                { text: "构建MCP服务器", link: "/ai/mcp/build-server" },                { text: "TypeScript SDK 使用", link: "/ai/mcp/typescript-sdk" },              ],
             },
           ],
         },
