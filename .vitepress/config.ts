@@ -40,7 +40,7 @@ export default withMermaid(
               collapsed: false,
               items: [
                 { text: "MCP 是什么", link: "/ai/mcp/what-is-mcp" },
-                { text: "快速上手", link: "/ai/mcp/quick-start" },
+                { text: "构建MCP服务器", link: "/ai/mcp/build-server" },
               ],
             },
           ],

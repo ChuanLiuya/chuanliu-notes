@@ -1,16 +1,13 @@
 # MCP 是什么
 
-::: tip 待补充
-本章节正在建设中，后续会补充 MCP 的基础概念、解决的问题、核心术语等内容。
+## 简介
+
+MCP，中文是模型上下文协议，是一个开源标准，用于将ai软件和外部系统连接起来。
+简单来说，就是供ai调用的api接口。
+
+::: details 官方介绍
+MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.  
+Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.  
+Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.  
 :::
 
-<!-- 写作模板（按需保留或删改，无需使用 --- 分隔线）：
-## 什么是 MCP
-## MCP 解决了什么问题
-## 核心概念（Client / Server / Tools / Resources / Prompts）
-## 更多资料
--->
-
-## 快速导航
-
-- [快速上手](/ai/mcp/quick-start)
