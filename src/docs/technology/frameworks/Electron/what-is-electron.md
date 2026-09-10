@@ -40,5 +40,5 @@ Electron 里不是只有浏览器那一套，它引入了**进程**的概念：
 
 ## 相关笔记
 
-- [快速上手](/frameworks/Electron/quick-start)
-- [预加载脚本](/frameworks/Electron/preload)
+- [快速上手](/technology/frameworks/Electron/quick-start)
+- [预加载脚本](/technology/frameworks/Electron/preload)

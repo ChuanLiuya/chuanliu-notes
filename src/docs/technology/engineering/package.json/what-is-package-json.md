@@ -319,7 +319,7 @@
 
 ## 依赖类字段
 
-依赖相关的六个字段详见 [依赖管理](/languages/Node.js/dependencies)，这里只做概览：
+依赖相关的六个字段详见 [依赖管理](/technology/languages/Node.js/dependencies)，这里只做概览：
 
 | 字段 | 说明 |
 | --- | --- |
@@ -341,7 +341,7 @@
 }
 ```
 
-配合 `pnpm-workspace.yaml` 使用时，pnpm 会优先读取 yaml 配置（见 [Monorepo](/engineering/monorepo/what-is-monorepo)）。
+配合 `pnpm-workspace.yaml` 使用时，pnpm 会优先读取 yaml 配置（见 [Monorepo](/technology/engineering/monorepo/what-is-monorepo)）。
 
 ### 锁文件
 

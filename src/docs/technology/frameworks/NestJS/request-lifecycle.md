@@ -5,10 +5,10 @@
 通常情况下，请求生命周期遵循以下流程：
 
 1. 传入请求
-2. [中间件](/frameworks/NestJS/middleware)
+2. [中间件](/technology/frameworks/NestJS/middleware)
    - 2.1 全局绑定的中间件
    - 2.2 模块绑定的中间件
-3. [守卫](/frameworks/NestJS/guard)
+3. [守卫](/technology/frameworks/NestJS/guard)
    - 3.1 全局守卫
    - 3.2 控制器守卫
    - 3.3 路由守卫

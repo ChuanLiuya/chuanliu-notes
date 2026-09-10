@@ -101,7 +101,7 @@ providers: [
 
 ---
 
-> 中间件和异常过滤器在请求生命周期中的位置，详见 [请求生命周期](/frameworks/NestJS/request-lifecycle) 专题。
+> 中间件和异常过滤器在请求生命周期中的位置，详见 [请求生命周期](/technology/frameworks/NestJS/request-lifecycle) 专题。
 
 ---
 

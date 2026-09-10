@@ -11,7 +11,7 @@
 | `bundledDependencies` | 捆绑依赖，随包一起打包发布 |
 | `overrides` | 覆盖依赖的版本 |
 
-关于 `package.json` 的其他常用字段，见 [package.json 常用字段](/engineering/package.json/what-is-package-json)。
+关于 `package.json` 的其他常用字段，见 [package.json 常用字段](/technology/engineering/package.json/what-is-package-json)。
 
 ## dependencies
 

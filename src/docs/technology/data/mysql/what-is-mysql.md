@@ -6,5 +6,5 @@
 
 ## 快速导航
 
-- [快速上手](/data/mysql/quick-start)
-- [TypeORM 是什么](/data/typeorm/basics/what-is-typeorm)
+- [快速上手](/technology/data/mysql/quick-start)
+- [TypeORM 是什么](/technology/data/typeorm/basics/what-is-typeorm)

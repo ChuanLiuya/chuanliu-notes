@@ -65,4 +65,4 @@ export class AuthGuard implements CanActivate {
 
 Guard 是门卫（决定能不能进），Strategy 是鉴定师（怎么验证身份）。实际认证流程见：
 
-📖 [Guard 与 Strategy 详解](/frameworks/NestJS/auth-guard-strategy)
+📖 [Guard 与 Strategy 详解](/technology/frameworks/NestJS/auth-guard-strategy)

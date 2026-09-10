@@ -228,5 +228,5 @@ Electron 的渲染进程（页面）和浏览器网页一样，也在沙盒里�
 
 ## 相关笔记
 
-- [Electron 是什么](/frameworks/Electron/what-is-electron)
-- [快速上手](/frameworks/Electron/quick-start)
+- [Electron 是什么](/technology/frameworks/Electron/what-is-electron)
+- [快速上手](/technology/frameworks/Electron/quick-start)

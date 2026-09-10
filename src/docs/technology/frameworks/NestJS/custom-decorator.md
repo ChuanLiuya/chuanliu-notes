@@ -466,7 +466,7 @@ sequenceDiagram
 
 ## 相关链接
 
-- [/frameworks/NestJS/guard](/frameworks/NestJS/guard) - 守卫详解
-- [/frameworks/NestJS/auth-guard-strategy](/frameworks/NestJS/auth-guard-strategy) - Guard 与 Strategy 协作
-- [/frameworks/NestJS/authorization](/frameworks/NestJS/authorization) - 身份认证
-- [/frameworks/NestJS/request-lifecycle](/frameworks/NestJS/request-lifecycle) - 请求生命周期（理解装饰器执行顺序）
+- [/technology/frameworks/NestJS/guard](/technology/frameworks/NestJS/guard) - 守卫详解
+- [/technology/frameworks/NestJS/auth-guard-strategy](/technology/frameworks/NestJS/auth-guard-strategy) - Guard 与 Strategy 协作
+- [/technology/frameworks/NestJS/authorization](/technology/frameworks/NestJS/authorization) - 身份认证
+- [/technology/frameworks/NestJS/request-lifecycle](/technology/frameworks/NestJS/request-lifecycle) - 请求生命周期（理解装饰器执行顺序）

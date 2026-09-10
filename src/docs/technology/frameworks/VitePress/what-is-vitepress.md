@@ -1,5 +1,5 @@
 # VitePress 是什么？
-VitePress 是一个静态站点生成器。可以将[markdown](/languages/Markdown/what-is-markdown)文件转变为html页面。
+VitePress 是一个静态站点生成器。可以将[markdown](/technology/languages/Markdown/what-is-markdown)文件转变为html页面。
 
 这个项目就是用vitepress创建的！
 

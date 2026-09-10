@@ -6,5 +6,5 @@
 
 ## 快速导航
 
-- [MySQL 是什么](/data/mysql/what-is-mysql)
-- [TypeORM 是什么](/data/typeorm/basics/what-is-typeorm)
+- [MySQL 是什么](/technology/data/mysql/what-is-mysql)
+- [TypeORM 是什么](/technology/data/typeorm/basics/what-is-typeorm)

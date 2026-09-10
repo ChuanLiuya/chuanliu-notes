@@ -13,4 +13,4 @@
 
 ## 参考
 
-- [MCP 是什么](/ai/mcp/what-is-mcp)
+- [MCP 是什么](/technology/ai/mcp/what-is-mcp)

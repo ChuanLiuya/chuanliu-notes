@@ -1,5 +1,5 @@
 <script setup>
-import WipTag from '../../components/WipTag.vue'
+import WipTag from '@components/WipTag.vue'
 </script>
 
 # CI/CD 自动化部署
@@ -34,7 +34,7 @@ CI 通过后，自动把代码部署到服务器：
 
 ### 前提条件
 
-- 了解 [SSH连接](/internet-tips/ssh) 的用法
+- 了解 [SSH连接](/technology/internet-tips/ssh) 的用法
 
 ### 实现流程
 
@@ -103,7 +103,7 @@ jobs:                                  # 要执行的任务列表
 
 #### 第二步：配置 SSH 密钥对连接
 
-在阿里云上生成[SSH远程连接](/internet-tips/ssh)的密钥对，把公钥放到阿里云服务器上。私钥放在手里，下一步使用。
+在阿里云上生成[SSH远程连接](/technology/internet-tips/ssh)的密钥对，把公钥放到阿里云服务器上。私钥放在手里，下一步使用。
 
 > 不是非要在阿里云上，只是我的项目在阿里云上部署。你可以在任何地方生成ssh密钥对，不管在哪里部署。
 
