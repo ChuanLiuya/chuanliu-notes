@@ -481,6 +481,24 @@ export default withMermaid(
                 text: "执行顺序",
                 link: "/entertainment/unity/execution-order",
               },
+              {
+                text: "组件",
+                collapsed: false,
+                items: [
+                  {
+                    text: "Rigidbody2D 刚体",
+                    link: "/entertainment/unity/components/rigidbody-2d",
+                  },
+                  {
+                    text: "BoxCollider2D 盒碰撞体",
+                    link: "/entertainment/unity/components/box-collider-2d",
+                  },
+                  {
+                    text: "PolygonCollider2D 多边形碰撞体",
+                    link: "/entertainment/unity/components/polygon-collider-2d",
+                  },
+                ],
+              },
             ],
           },
         ],
