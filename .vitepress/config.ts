@@ -31,7 +31,7 @@ export default withMermaid(
       nav: [
         { text: "首页", link: "/" },
         { text: "技术", link: "/technology/ai/mcp/what-is-mcp" },
-        { text: "娱乐", link: "/entertainment/unity/what-is-unity" },
+        { text: "娱乐", link: "/entertainment/unity/execution-order" },
       ],
 
       // 两套侧边栏按页面路径自动切换：
@@ -478,12 +478,8 @@ export default withMermaid(
             collapsed: false,
             items: [
               {
-                text: "Unity 是什么",
-                link: "/entertainment/unity/what-is-unity",
-              },
-              {
-                text: "快速上手",
-                link: "/entertainment/unity/quick-start",
+                text: "执行顺序",
+                link: "/entertainment/unity/execution-order",
               },
             ],
           },
