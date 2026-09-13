@@ -482,6 +482,18 @@ export default withMermaid(
                 link: "/entertainment/unity/execution-order",
               },
               {
+                text: "输入系统",
+                link: "/entertainment/unity/input-system",
+              },
+              {
+                text: "跳跃逻辑",
+                link: "/entertainment/unity/jump-logic",
+              },
+              {
+                text: "特性（Attribute）",
+                link: "/entertainment/unity/attribute",
+              },
+              {
                 text: "组件",
                 collapsed: false,
                 items: [
