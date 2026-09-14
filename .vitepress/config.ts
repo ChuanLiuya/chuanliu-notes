@@ -271,6 +271,16 @@ export default withMermaid(
                     text: "预加载脚本",
                     link: "/technology/frameworks/Electron/preload",
                   },
+                  {
+                    text: "进程间通信",
+                    collapsed: false,
+                    items: [
+                      {
+                        text: "主进程到渲染进程",
+                        link: "/technology/frameworks/Electron/ipc/main-to-renderer",
+                      },
+                    ],
+                  },
                 ],
               },
               {

@@ -42,3 +42,4 @@ Electron 里不是只有浏览器那一套，它引入了**进程**的概念：
 
 - [快速上手](/technology/frameworks/Electron/quick-start)
 - [预加载脚本](/technology/frameworks/Electron/preload)
+- [进程间通信：主进程到渲染进程](/technology/frameworks/Electron/ipc/main-to-renderer)

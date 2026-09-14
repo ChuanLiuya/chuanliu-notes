@@ -188,6 +188,8 @@ func();
 
 ::: tip 提示
 更深入的 `ipcRenderer` 和 `ipcMain` 用法，见官方[进程间通信指南](https://www.electronjs.org/zh/docs/latest/tutorial/ipc)。
+
+上面这个是渲染进程发给主进程，反过来由主进程主动推消息给页面，见[主进程到渲染进程](/technology/frameworks/Electron/ipc/main-to-renderer)。
 :::
 
 ## 附录
