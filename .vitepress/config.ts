@@ -569,6 +569,10 @@ export default withMermaid(
                     link: "/entertainment/darkest-dungeon/modding/localization",
                   },
                   {
+                    text: "Mod 副本制作",
+                    link: "/entertainment/darkest-dungeon/modding/quests",
+                  },
+                  {
                     text: "城镇事件制作（Town Events）",
                     link: "/entertainment/darkest-dungeon/modding/town-events",
                   },
