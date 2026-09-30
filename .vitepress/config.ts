@@ -155,6 +155,32 @@ export default withMermaid(
                 ],
               },
               {
+                text: "Python",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Python是什么",
+                    link: "/technology/languages/Python/index",
+                  },
+                  {
+                    text: "快速上手",
+                    link: "/technology/languages/Python/quick-start",
+                  },
+                  {
+                    text: "基础语法",
+                    link: "/technology/languages/Python/basic-syntax",
+                  },
+                  {
+                    text: "数据类型",
+                    link: "/technology/languages/Python/data-types",
+                  },
+                  {
+                    text: "虚拟环境与包管理",
+                    link: "/technology/languages/Python/venv-pip",
+                  },
+                ],
+              },
+              {
                 text: "笔试题",
                 collapsed: true,
                 items: [
