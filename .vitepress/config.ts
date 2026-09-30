@@ -549,6 +549,22 @@ export default withMermaid(
               },
             ],
           },
+          {
+            text: "Darkest Dungeon",
+            collapsed: false,
+            items: [
+              {
+                text: "Modding",
+                collapsed: false,
+                items: [
+                  {
+                    text: "城镇事件制作（Town Events）",
+                    link: "/entertainment/darkest-dungeon/modding/town-events",
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
 
