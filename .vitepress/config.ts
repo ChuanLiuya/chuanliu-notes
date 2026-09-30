@@ -31,7 +31,10 @@ export default withMermaid(
       nav: [
         { text: "首页", link: "/" },
         { text: "技术", link: "/technology/ai/mcp/what-is-mcp" },
-        { text: "娱乐", link: "/entertainment/unity/execution-order" },
+        {
+          text: "娱乐",
+          link: "/entertainment/darkest-dungeon/modding/create-new-mod",
+        },
       ],
 
       // 两套侧边栏按页面路径自动切换：
@@ -511,7 +514,7 @@ export default withMermaid(
         "/entertainment/": [
           {
             text: "Unity",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: "执行顺序",
@@ -551,12 +554,20 @@ export default withMermaid(
           },
           {
             text: "Darkest Dungeon",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: "Modding",
                 collapsed: false,
                 items: [
+                  {
+                    text: "创建新 mod",
+                    link: "/entertainment/darkest-dungeon/modding/create-new-mod",
+                  },
+                  {
+                    text: "本地化",
+                    link: "/entertainment/darkest-dungeon/modding/localization",
+                  },
                   {
                     text: "城镇事件制作（Town Events）",
                     link: "/entertainment/darkest-dungeon/modding/town-events",
