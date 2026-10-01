@@ -576,6 +576,10 @@ export default withMermaid(
                     text: "城镇事件制作（Town Events）",
                     link: "/entertainment/darkest-dungeon/modding/town-events",
                   },
+                  {
+                    text: "饰品制作（Trinkets）",
+                    link: "/entertainment/darkest-dungeon/modding/trinkets",
+                  },
                 ],
               },
             ],
