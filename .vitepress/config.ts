@@ -580,6 +580,14 @@ export default withMermaid(
                     text: "饰品制作（Trinkets）",
                     link: "/entertainment/darkest-dungeon/modding/trinkets",
                   },
+                  {
+                    text: "补给品制作（Provisions）",
+                    link: "/entertainment/darkest-dungeon/modding/provisions",
+                  },
+                  {
+                    text: "怪物制作（Monsters）",
+                    link: "/entertainment/darkest-dungeon/modding/monsters",
+                  },
                 ],
               },
             ],
