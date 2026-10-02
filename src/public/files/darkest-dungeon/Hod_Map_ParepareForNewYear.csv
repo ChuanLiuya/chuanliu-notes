@@ -1,0 +1,10 @@
+global,,room;entrance,room;,room;mash,room;curio,r;final_room,,c;,c;mash,c;curio,c;trap,c;obstacle,c;hunger,,,,
+,,ROOM TILES,,,,,,CORRIDOR TILES,,,,,,COMMENT,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,room;entrance;,c;,c;mash,c;,c;mash,c;mash,c;mash,c;mash,c;,room;
+,,,,,,,,c;,,,,,,,,,
+,,,,,,,,c;,,,,,,,,,
+,,,,,,,,c;,,,,,,,,,
+,,,,,,,,room;mash=summon_mash_shambler,,,,,,,,,

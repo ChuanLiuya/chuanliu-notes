@@ -29,6 +29,30 @@
   padding: 16px;
 }
 
+/* ====== 文件下载按钮 ====== */
+.vp-doc .download-file {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0;
+  padding: 8px 16px;
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 8px;
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1) !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.vp-doc .download-file:hover {
+  background-color: var(--vp-c-brand-1);
+  color: var(--vp-c-bg) !important;
+}
+
 /* ====== 移动端适配 ====== */
 @media (max-width: 960px) {
   /* 移动端侧边栏 */
