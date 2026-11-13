@@ -177,6 +177,10 @@ export default withMermaid(
                     text: "用 uv 作为管理器",
                     link: "/technology/languages/Python/uv",
                   },
+                  {
+                    text: "管理环境变量",
+                    link: "/technology/languages/Python/pydantic-settings",
+                  },
                 ],
               },
             ],
