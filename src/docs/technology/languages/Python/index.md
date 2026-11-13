@@ -41,9 +41,6 @@ def add(a: int, b: int) -> int:
 
 数字、字符串、函数、类本身都是对象，可以赋值给变量、作为参数传递、作为返回值。
 
-### 4. 标准库 + 第三方生态
-
-标准库自带 `os`、`json`、`re`、`datetime`、`pathlib` 等常用模块，开箱即用；第三方包通过 `pip` 一条命令安装，覆盖各个领域。
 
 ## 常见应用领域
 
@@ -55,13 +52,3 @@ def add(a: int, b: int) -> int:
 | 爬虫 | requests、Scrapy |
 | 自动化脚本 | 标准库 + pyautogui、Selenium |
 
-## 版本说明
-
-Python 2 已于 2020 年停止维护，新项目统一使用 **Python 3**。Python 3 每年 10 月发布一个小版本（3.12、3.13 …），通常只保留最近几个版本的支持。
-
-## 相关文档
-
-- [快速上手](/technology/languages/Python/quick-start)
-- [基础语法](/technology/languages/Python/basic-syntax)
-- [数据类型](/technology/languages/Python/data-types)
-- [虚拟环境与包管理](/technology/languages/Python/venv-pip)

@@ -166,10 +166,6 @@ export default withMermaid(
                     link: "/technology/languages/Python/index",
                   },
                   {
-                    text: "快速上手",
-                    link: "/technology/languages/Python/quick-start",
-                  },
-                  {
                     text: "基础语法",
                     link: "/technology/languages/Python/basic-syntax",
                   },
@@ -178,26 +174,8 @@ export default withMermaid(
                     link: "/technology/languages/Python/data-types",
                   },
                   {
-                    text: "虚拟环境与包管理",
-                    link: "/technology/languages/Python/venv-pip",
-                  },
-                ],
-              },
-              {
-                text: "笔试题",
-                collapsed: true,
-                items: [
-                  {
-                    text: "基础",
-                    link: "/technology/languages/written-test/base",
-                  },
-                  {
-                    text: "数字组合",
-                    link: "/technology/languages/written-test/number-combination",
-                  },
-                  {
-                    text: "字符串变换",
-                    link: "/technology/languages/written-test/string-transform",
+                    text: "用 uv 作为管理器",
+                    link: "/technology/languages/Python/uv",
                   },
                 ],
               },
