@@ -585,6 +585,14 @@ export default withMermaid(
                     link: "/entertainment/darkest-dungeon/modding/provisions",
                   },
                   {
+                    text: "战利品表（Loot）",
+                    link: "/entertainment/darkest-dungeon/modding/loot",
+                  },
+                  {
+                    text: "物品栏（Inventory）",
+                    link: "/entertainment/darkest-dungeon/modding/inventory",
+                  },
+                  {
                     text: "怪物制作（Monsters）",
                     link: "/entertainment/darkest-dungeon/modding/monsters",
                   },
