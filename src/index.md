@@ -9,6 +9,6 @@ hero:
   actions:
     - theme: brand
       text: 开始吧！
-      link: /frameworks/VitePress/what-is-vitepress
+      link: /technology/frameworks/VitePress/what-is-vitepress
 ---
 
