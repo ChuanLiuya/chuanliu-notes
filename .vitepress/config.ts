@@ -181,6 +181,10 @@ export default withMermaid(
                     text: "管理环境变量",
                     link: "/technology/languages/Python/pydantic-settings",
                   },
+                  {
+                    text: "数据库连接",
+                    link: "/technology/languages/Python/sqlalchemy",
+                  },
                 ],
               },
             ],
@@ -380,6 +384,17 @@ export default withMermaid(
                   { text: "快速上手", link: "/technology/data/mysql/quick-start" },
                   { text: "数据库操作", link: "/technology/data/mysql/sql-database" },
                   { text: "数据表操作", link: "/technology/data/mysql/sql-table" },
+                ],
+              },
+              {
+                text: "PostgreSQL",
+                collapsed: true,
+                items: [
+                  {
+                    text: "PostgreSQL是什么",
+                    link: "/technology/data/postgresql/what-is-postgresql",
+                  },
+                  { text: "快速上手", link: "/technology/data/postgresql/quick-start" },
                 ],
               },
               {
